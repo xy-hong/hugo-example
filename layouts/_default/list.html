@@ -1,0 +1,6 @@
+{{ define "main"}}
+    {{ range .Site.Pages }}
+    {{ if isPage }}
+    <div>{{ .Title }}</div>
+    {{ end }}
+{{ end }}
